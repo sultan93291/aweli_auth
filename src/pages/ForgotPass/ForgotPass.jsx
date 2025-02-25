@@ -26,9 +26,9 @@ const ForgotPass = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="rounded-[35px] flex flex-col gap-y-4 h-auto bg-[#fff] border-[1px] items-center border-solid p-5 lg:p-8 xl:p-12 shadow-lg "
+      className="rounded-[35px] flex flex-col gap-y-4 h-auto bg-[#fff] border-[1px] items-center border-solid p-8 xl:p-12 shadow-lg "
     >
-      <h2 className=" font-bold text-[28px] xl:text-[36px] uppercase leading-[125%]  text-[#1B1812] mb-2 custom-xl:mb-1">
+      <h2 className=" font-bold text-[22px] xl:text-[36px] uppercase leading-[125%]  text-[#1B1812] mb-2 custom-xl:mb-1">
         Forgot Password
       </h2>
       <div className="flex flex-col gap-y-4 lg:gap-y-6">
