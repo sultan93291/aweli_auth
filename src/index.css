@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgba(153, 211, 255, 0.1);
+  font-family: "Cambria", "Times New Roman", serif;
+}
+@layer components {
+  .form-input {
+    @apply w-full xl:w-[360px] rounded-[12px]  h-auto py-2 lg:py-4 outline-none border-[1px] border-solid border-[#99D3Ff]  px-3 text-base font-normal leading-[24px] text-[#3c4347];
+  }
+  .common-form-heading {
+    @apply text-[#1B1812]  leading-[150%] font-semibold text-base lg:text-lg;
+  }
+}
